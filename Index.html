@@ -8,6 +8,7 @@ Nathan Yvars | 20249300
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -21,6 +22,29 @@ Nathan Yvars | 20249300
         </div>
         <div class="Section1b">
             <h1>Entrez les valeurs</h1>
+            
+                <label for="valeur">
+                    Valeur
+                </label>
+                <label for="startunit">
+                    Unité de la valeur
+                </label>
+                <label for="convertunit">
+                    Unité cible
+                </label> <br>
+                <input type="text" name="valeur" id="valeur" placeholder="Entrez la valeur">
+                <select name="startunit" id="startunit">
+                    <option value="metre" selected>m</option>
+                </select>
+                <select name="convertunit" id="convertunit">
+                    <option value="cm" selected>cm</option>
+                    <option value="km">km</option>
+                    <option value="pied">pied</option>
+                    <option value="pouce">pouce</option>
+                </select>
+                <button id="convertbutton">convertir</button>
+
+            <p id=convertresult>Entrez les valeurs dans la calculatrice</p>
         </div>
     </div>
     <div id="divExplications">
@@ -45,5 +69,6 @@ Nathan Yvars | 20249300
             <source src="./assets/History of the measurement world.mp4" type="video/mp4">
         <a href="./assets/History of the measurement world.mp4">Les mesures dans le monde</a>
     </video>
+    <script src="script.js"></script>
 </body>
 </html>
