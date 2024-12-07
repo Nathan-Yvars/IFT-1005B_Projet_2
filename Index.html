@@ -12,24 +12,24 @@ Nathan Yvars | 20249300
     <title>Document</title>
 </head>
 <body>
-    <div id="sectionCalculateur">
-        <div class="Section1a">
+    <div id="sectionCalculateur" style="border: solid;">
+        <div id="Section1a" style="border: solid;">
             <h1 class="intro">Calculateur d'unités</h1>
             <p class="description">Les conversions de longueur sont essentielles dans de nombreux aspects de la vie quotidienne, qu'il s'agisse de mesurer des distances 
                 pour des voyages, de planifier des projets de construction, ou même d'effectuer des conversions pour des recettes. 
                 Notre outil vous permet de convertir rapidement et précisément entre différentes unités de longueur telles que les mètres, kilomètres, 
                 pouces et pieds, vous aidant à adapter vos mesures à différents contextes.</p>
         </div>
-        <div class="Section1b">
-            <h1>Entrez les valeurs</h1>
+        <div id="calculatrice" >
+            <h1 id="h1calc">Entrez les valeurs</h1>
             
-                <label for="valeur">
+                <label for="valeur" id="valeurlab">
                     Valeur
                 </label>
-                <label for="startunit">
+                <label for="startunit" id="startlab">
                     Unité de la valeur
                 </label>
-                <label for="convertunit">
+                <label for="convertunit" id="convertlab">
                     Unité cible
                 </label> <br>
                 <input type="text" name="valeur" id="valeur" placeholder="Entrez la valeur">
@@ -44,7 +44,7 @@ Nathan Yvars | 20249300
                 </select>
                 <button id="convertbutton">convertir</button>
 
-            <p id=convertresult>Entrez les valeurs dans la calculatrice</p>
+            <p id= "convertresult">Entrez les valeurs dans la calculatrice</p>
         </div>
     </div>
     <div id="divExplications">
