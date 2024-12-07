@@ -1,0 +1,161 @@
+/*
+ * Karl-Antoine Plouffe | 20218864
+ * Nathan Yvars | 20249300
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: Inter, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2 {
+    color: #253347;
+}
+
+h2 {  
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 53px;
+}
+
+p {
+    color: #5E6E85;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+    margin: 0px;
+}
+
+/* Mobile first */
+
+/* Tableau */
+#sectionTableau {
+    max-width: 100%;
+    text-align: center;
+
+    padding-top: 22px;
+    padding-bottom: 63px;
+    margin-bottom: 70px;
+
+    background-image: linear-gradient(to left, #C3C7C4, #D6FCFE00);    
+}
+
+#sectionTableau > div {
+    margin-bottom: 45px;
+}
+
+#sectionTableau h2 {
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+#sectionTableau > table{
+    width: 91%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 24px;
+
+    background-color: #FFFFFF;
+
+    border-collapse: collapse;
+    border: 2px solid #F2F2F2;
+    border-radius: 4px;
+}
+
+#sectionTableau > table th, #sectionTableau > table td {
+    vertical-align: middle;
+    width: 33%;
+}
+
+#sectionTableau > table th {
+    font-weight: 600;
+    padding: 16px; 
+}
+
+#sectionTableau > table td {    
+    border-top: 2px solid #F2F2F2;
+    padding: 18px 16px 18px 16px;
+    text-align: left;
+}
+
+#sectionTableau > table tr:nth-child(even){
+    background-color: #F2F2F2;
+    box-shadow: 0px -1px 0px 0px #E6E6E6 inset;
+}
+
+#sectionTableau > table tr:nth-child(even) td:nth-child(even) {
+    background-color: #9AC5A7;
+    box-shadow: 0px -1px 0px 0px #E6E6E6 inset;
+}
+
+#sectionTableau > table th:last-child{
+    background-color: #D8E3E7;
+}
+
+#sectionTableau > table th:nth-child(even){
+    background-color: #9AC5A7;
+}
+
+#sectionTableau > table th:first-of-type{
+    background-color: #0F722E;
+    color: #FFFFFF;
+}
+
+ /* Vidéo complémentaire */
+#sectionVideo{
+    text-align: center;
+
+    padding-bottom: 69px;
+
+    max-width: 100%;
+}
+
+#sectionVideo h2 {    
+    margin-left: auto;
+    margin-right: auto;    
+    margin-bottom: 35px;
+
+    padding: 0px;
+
+    max-width: 93%;
+}
+
+#sectionVideo p {    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 49px;
+
+    text-align: justify;
+    
+    max-width: 76%;
+}
+
+#sectionVideo > video {
+    /*
+     *
+     * À MODIFIER
+     *
+     */
+    width: 334px;
+    height: 292px;
+}
+
+/* Tablette */
+
+@media screen and (min-width: 641px) {
+    
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1008px) {
+    
+}
+
+
