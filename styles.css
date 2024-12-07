@@ -151,6 +151,10 @@ p {
     grid-column: 1 / 5;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* Mobile first */
 
 .description {
