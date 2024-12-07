@@ -143,9 +143,9 @@ p {
     font-size: 32px;
     color: white;
     background-color: #3a6d4a;
-    border-top-left-radius: 16px;
+    border-top-left-radius: 250px;
     border-top-right-radius: 999px;
-    border-bottom-left-radius: 16px;
+    border-bottom-left-radius: 250px;
     border-bottom-right-radius: 999px;
     grid-row: 4;
     grid-column: 1 / 5;
