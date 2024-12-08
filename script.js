@@ -23,12 +23,11 @@ function Convert(){
 
     if (isNaN(val) || val < 0){
         document.getElementById("convertresult").textContent = 'Erreur';
-        return;
     }
-
-    const newval = val * conversion[convertunit];
-
-    document.getElementById("convertresult").textContent = newval;
+    else {
+        const newval = val * conversion[convertunit];
+        document.getElementById("convertresult").textContent = newval;
+    }    
  };
 
 document.getElementById("convertbutton").addEventListener("click", Convert);
