@@ -24,7 +24,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 17vw;
     margin-bottom: 24px;
 }
 
@@ -48,6 +48,14 @@ p {
     margin: 0rem;
 }
 
+/* Mobile first */
+
+.description {
+    max-width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Calculatrice */
 
 #sectionCalculateur {
@@ -63,6 +71,10 @@ p {
     max-width: 20rem;
     padding-top: 6rem;
     padding-bottom: 3.625rem;
+}
+
+#sectionCalculateur > .description > p{
+    padding: 1.5rem;
 }
 
 #calculatrice {    
@@ -171,16 +183,6 @@ p {
     font-family: Inter, sans-serif;
 }
 
-.temp {
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 1.816rem;
-    letter-spacing: -0.05em;
-    text-align: left;
-
-    color: #0F722E;
-}
-
 #convertbutton{
     color: white;
     background-color: #3a6d4a;
@@ -216,26 +218,19 @@ p {
     border-bottom-right-radius: 9.375rem;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
+
+    height: 150px;
 }
 
 #convertresult {      
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 6.4vw;
     line-height: 29px;
-    text-align: justify;
-    height: 150px;
-    max-width: 280px;
-}
-
-/* Mobile first */
-
-.description {
-    max-width: 87%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: left;
 }
 
 /* Comprendre les conversions */
