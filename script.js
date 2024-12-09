@@ -22,11 +22,13 @@ function Convert(){
     console.log(convertunit);
 
     if (isNaN(val) || val < 0){
+        document.getElementById("tagResultat").innerHTML = "";
         document.getElementById("convertresult").textContent = 'Erreur';
     }
     else {
         const newval = val * conversion[convertunit];
-        document.getElementById("convertresult").textContent = "Résultat\n" + newval;
+        document.getElementById("tagResultat").textContent = "Résulat";
+        document.getElementById("convertresult").textContent = newval;
     }    
  };
 

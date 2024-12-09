@@ -12,6 +12,9 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: #FFFFFF;
+
+    width: 100%;
+    position:absolute;
 }
 
 h1, h2 {
@@ -22,6 +25,7 @@ h1, h2 {
 
 h1 {
     font-size: 4rem;
+    margin-bottom: 24px;
 }
 
 h2 {  
@@ -52,23 +56,24 @@ p {
     text-align: center;
 
     padding-bottom: 58px;
-    width: 100%;
+    max-width: 100%;
 }
 
 #sectionCalculateur > .description {
+    max-width: 20rem;
     padding-top: 96px;
     padding-bottom: 58px;
 }
 
 #calculatrice {    
+    max-width: 20.5rem;
+
     border-radius: 1rem;
 
     margin: auto;
-    padding: 32px;
-    gap: 24px;
+    padding: 24px;
 
     text-align: left;
-    max-width: 20.5rem;
 
     background-color: #FFFFFF;
 }
@@ -197,31 +202,32 @@ p {
     cursor: pointer;
 }
 
-#convertresult {
+#resultatContainer {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    border: solid;
-    padding: 2rem;
     
-    font-weight: 600;
-    font-size: 1.5rem;
-
     color: white;
     background-color: #3a6d4a;
 
+    border: solid;
     border-top-right-radius: 150px;
     border-bottom-right-radius: 150px;
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
-
-    text-align: justify;
-
-    height: 9.5rem;
 }
 
-
+#convertresult {      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 29px;
+    text-align: justify;
+    height: 150px;
+    max-width: 280px;
+}
 
 /* Mobile first */
 
@@ -242,8 +248,6 @@ p {
 }
 
 #sectionImage {
-    width: 19rem;
-    height: 19.375rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -256,7 +260,7 @@ p {
 }
 
 #sectionImage > img {
-    max-height: 100%;
+    max-height: 19.375rem;
 }
 
 
@@ -455,13 +459,10 @@ p {
 }
 
 #sectionVideo > video {
-    /*
-     *
-     * À MODIFIER
-     *
-     */
-    width: 334px;
-    height: 292px;
+    width: 89%;
+
+    aspect-ratio: 334/292;
+
     object-fit: fill;
 }
 
