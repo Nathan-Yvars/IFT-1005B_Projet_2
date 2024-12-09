@@ -24,12 +24,13 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 17vw;
+    font-size: 15vw;
     margin-bottom: 24px;
 }
 
 h2 {  
     font-size: 3rem;
+    font-size: 12vw;
     line-height: 3.313rem;
 }
 
@@ -243,6 +244,10 @@ p {
     margin-bottom: 4rem;
 }
 
+#sectionComprendre h3 {
+    font-size: 1.5rem;
+}
+
 #sectionImage {
     margin-left: auto;
     margin-right: auto;
@@ -257,6 +262,7 @@ p {
 
 #sectionImage > img {
     max-height: 19.375rem;
+    max-width: 81vw;
 }
 
 
@@ -350,6 +356,7 @@ p {
 }
 
 /* Tableau */
+
 #sectionTableau {
     max-width: 100%;
     text-align: center;
@@ -371,7 +378,7 @@ p {
 }
 
 #sectionTableau > table{
-    width: 91%;
+    max-width: 91%;
 
     margin-left: auto;
     margin-right: auto;
@@ -384,14 +391,17 @@ p {
     border-spacing: 0;
     border-collapse: separate;
     border-radius: 0.25rem;
+
+    font-size: 3.7vw;
 }
 
 #sectionTableau > table th, #sectionTableau > table td {
     vertical-align: middle;
-    width: 33%;
 }
 
 #sectionTableau > table th {
+    font-size: 1rem;
+    font-size: 4vw;
     font-weight: 600;
     padding: 1rem; 
 }
@@ -462,10 +472,40 @@ p {
     object-fit: fill;
 }
 
+@media screen and (min-width: 375px) {
+    h1 {
+       font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3{
+        font-size: 1.25rem;
+    }
+
+    #sectionComprendre h3 {
+        font-size: 1.5rem;
+    }
+
+    #sectionTableau > table {        
+        font-size: 0.875rem;
+    }
+
+    #sectionTableau > table th {
+        font-size: 1rem;
+    }
+
+
+  }
+
 /* Tablette */
 
 @media screen and (min-width: 641px) {
-    
+    #convertresult {
+        font-size: 4rem;
+    }
 }
 
 /* Desktop */
