@@ -9,13 +9,13 @@
 
 body {
     font-family: Inter, sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     background-color: #FFFFFF;
 }
 
 h1, h2 {
-    margin-top: 0px;
+    margin-top: 0rem;
     color: #253347;
     font-weight: 600;
 }
@@ -26,22 +26,22 @@ h1 {
 
 h2 {  
     font-size: 3rem;
-    line-height: 53px;
+    line-height: 3.313rem;
 }
 
 h3 {
     font-size: 1.25rem;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 
 p {
     color: #5E6E85;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5rem;
 
-    margin: 0px;
+    margin: 0rem;
 }
 
 /* Calculatrice */
@@ -51,21 +51,21 @@ p {
 
     text-align: center;
 
-    padding-bottom: 58px;
+    padding-bottom: 3.625rem;
     width: 100%;
 }
 
 #sectionCalculateur > .description {
-    padding-top: 96px;
-    padding-bottom: 58px;
+    padding-top: 6rem;
+    padding-bottom: 3.625rem;
 }
 
 #calculatrice {    
     border-radius: 1rem;
 
     margin: auto;
-    padding: 32px;
-    gap: 24px;
+    padding: 2rem;
+    gap: 1.5rem;
 
     text-align: left;
     max-width: 20.5rem;
@@ -92,9 +92,9 @@ p {
 }
 
 #calculatrice form label {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
+    font-size: 0.875rem;
+    font-weight: 1.313rem;
+    line-height: 1.313rem;
     text-align: left;
 
     margin-bottom: 0.5rem;
@@ -103,36 +103,36 @@ p {
 }
 
 #h3calc {
-    font-size: 24px;
-    margin: 0px;
+    font-size: 1.5rem;
+    margin: 0rem;
 }
 
 #valeur {
-    border-radius: 12px;
-    padding: 20px 24px;
+    border-radius: 0.75rem;
+    padding: 1.25rem 1.5px;
     max-width: 10.25rem;
 
     text-align: center;
 
-    border: 1px solid #5E6E85;
+    border: 0.063rem solid #5E6E85;
 
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 #startunit {
-    border-radius: 12px;
-    padding: 20px 24px;
+    border-radius: 0.75rem;
+    padding: 1.25rem 1.5rem;
 
-    max-width: 115px;
+    max-width: 7.188rem;
 
-    border: 1px solid #5E6E85;
+    border: 0.063rem solid #5E6E85;
 
     margin-bottom: 2rem;    
 
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    line-height: 29.05px;
+    line-height: 1.816rem;
     letter-spacing: -0.05em;
     text-align: left;
 
@@ -140,16 +140,16 @@ p {
 }
 
 #convertunit {
-    padding: 20px 24px;
+    padding: 1.25rem 1.5rem;
 
     margin-bottom: 2rem;   
     
-    border: 1px solid #5E6E85;
-    border-radius: 12px;
+    border: 0.063rem solid #5E6E85;
+    border-radius: 0.75rem;
 
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    line-height: 29.05px;
+    line-height: 1.816rem;
     letter-spacing: -0.05em;
     text-align: left;
 
@@ -166,9 +166,9 @@ p {
 }
 
 .temp {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    line-height: 29.05px;
+    line-height: 1.816rem;
     letter-spacing: -0.05em;
     text-align: left;
 
@@ -181,15 +181,15 @@ p {
     border: none;
 
     font-weight: 600;
-    font-size: 13px;
+    font-size: 0.813rem;
     line-height: 1rem;
 
-    border-radius: 25px;
-    padding: 1px 10px;      
+    border-radius: 1.563rem;
+    padding: 0.063rem 0.625rem;      
 
     max-width: 5rem;
 
-    border: 3px solid #3A6D4A
+    border: 0.188rem solid #3A6D4A
 }
 
 #convertbutton:hover {
@@ -211,10 +211,10 @@ p {
     color: white;
     background-color: #3a6d4a;
 
-    border-top-right-radius: 150px;
-    border-bottom-right-radius: 150px;
-    border-top-left-radius: 16px;
-    border-bottom-left-radius: 16px;
+    border-top-right-radius: 9.375rem;
+    border-bottom-right-radius: 9.375rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 
     text-align: justify;
 
@@ -238,7 +238,7 @@ p {
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-    margin-bottom: 64px;
+    margin-bottom: 4rem;
 }
 
 #sectionImage {
@@ -246,11 +246,11 @@ p {
     height: 19.375rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
 
     border: hidden;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 
     background-color: rgba(100, 166, 120, 0.15);
 }
@@ -264,10 +264,10 @@ p {
 
 #sectionConversions {
     background-color: rgba(100, 166, 120, 0.15);
-    margin-bottom: 58px;
+    margin-bottom: 3.625rem;
     text-align: center;
-    padding-top: 27px;
-    padding-bottom: 27px;
+    padding-top: 1.688rem;
+    padding-bottom: 1.688rem;
 }
 
 #sectionConversions > .conversionContainer {
@@ -283,8 +283,8 @@ p {
     align-items: center;
     justify-content: center;
 
-    width: 57px;
-    height: 61px;
+    width: 3.563rem;
+    height: 3.813rem;
     background-color: #3A6D4A;
 
     border: hidden;
@@ -292,28 +292,28 @@ p {
 }
 
 #icone1 {
-    margin-bottom: 42px;
+    margin-bottom: 2.625rem;
 }
 
 #icone2 {
-    margin-top: 50px;
-    margin-bottom: 27px;
+    margin-top: 3.125rem;
+    margin-bottom: 1.688rem;
 }
 
 #icone3 {
-    margin-top: 50px;
-    margin-bottom: 26px;
+    margin-top: 3.125rem;
+    margin-bottom: 1.625rem;
 }
 
 /* Faits */
 #sectionFaits {
     max-width: 100%;
     text-align: center;
-    margin-bottom: 114px;
+    margin-bottom: 7.125rem;
 }
 
 #sectionFaits > .description {
-    margin-bottom: 78px;
+    margin-bottom: 4.875rem;
 }
 
 #sectionFaits p {
@@ -332,12 +332,12 @@ p {
 }
 
 .card {    
-    padding: 32px;
-    border-radius: 16px;
+    padding: 2rem;
+    border-radius: 1rem;
 
     background: #FFFFFF;
 
-    box-shadow: 16px 32px 56px 0px #8FAECF40;
+    box-shadow: 1rem 2rem 3.5rem 0rem #8FAECF40;
 }
 
 .cardTitle {
@@ -346,7 +346,7 @@ p {
     align-items: center;
     text-align: left;
     gap: 1rem;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 /* Tableau */
@@ -354,20 +354,20 @@ p {
     max-width: 100%;
     text-align: center;
 
-    padding-top: 22px;
-    padding-bottom: 63px;
-    margin-bottom: 70px;
+    padding-top: 1.375rem;
+    padding-bottom: 3.938rem;
+    margin-bottom: 4.375rem;
 
     background-image: linear-gradient(to left, #C3C7C4, #D6FCFE00);    
 }
 
 #sectionTableau > div {
-    margin-bottom: 45px;
+    margin-bottom: 2.813rem;
 }
 
 #sectionTableau h2 {
-    margin-top: 0px;
-    margin-bottom: 35px;
+    margin-top: 0rem;
+    margin-bottom: 2.188rem;
 }
 
 #sectionTableau > table{
@@ -375,15 +375,15 @@ p {
 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8px;
-    margin-bottom: 24px;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
 
     background-color: #FFFFFF;
 
-    border: 2px hidden #F2F2F2;
+    border: 0.125rem hidden #F2F2F2;
     border-spacing: 0;
     border-collapse: separate;
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 
 #sectionTableau > table th, #sectionTableau > table td {
@@ -393,23 +393,23 @@ p {
 
 #sectionTableau > table th {
     font-weight: 600;
-    padding: 16px; 
+    padding: 1rem; 
 }
 
 #sectionTableau > table td {    
-    border-top: 2px solid #F2F2F2;
-    padding: 18px 16px 18px 16px;
+    border-top: 0.125rem solid #F2F2F2;
+    padding: 1.125rem 1rem 1.125rem 1rem;
     text-align: left;
 }
 
 #sectionTableau > table tr:nth-child(even){
     background-color: #F2F2F2;
-    box-shadow: 0px -1px 0px 0px #E6E6E6 inset;
+    box-shadow: 0px -0.063rem 0px 0px #E6E6E6 inset;
 }
 
 #sectionTableau > table tr:nth-child(even) td:nth-child(even) {
     background-color: #9AC5A7;
-    box-shadow: 0px -1px 0px 0px #E6E6E6 inset;
+    box-shadow: 0px -0.063rem 0px 0px #E6E6E6 inset;
 }
 
 #sectionTableau > table th:last-child{
@@ -429,7 +429,7 @@ p {
 #sectionVideo{
     text-align: center;
 
-    padding-bottom: 69px;
+    padding-bottom: 4.313rem;
 
     max-width: 100%;
 }
@@ -437,7 +437,7 @@ p {
 #sectionVideo h2 {    
     margin-left: auto;
     margin-right: auto;    
-    margin-bottom: 35px;
+    margin-bottom: 2.188rem;
 
     padding: 0px;
 
@@ -447,7 +447,7 @@ p {
 #sectionVideo p {    
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 49px;
+    margin-bottom: 3.063rem;
 
     text-align: justify;
     
@@ -460,8 +460,8 @@ p {
      * À MODIFIER
      *
      */
-    width: 334px;
-    height: 292px;
+    width: 20.875rem;
+    height: 18.25rem;
     object-fit: fill;
 }
 
