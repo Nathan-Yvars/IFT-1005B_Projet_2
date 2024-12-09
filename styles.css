@@ -51,9 +51,8 @@ p {
 
     text-align: center;
 
-    box-sizing: border-box;
-
     padding-bottom: 58px;
+    width: 100%;
 }
 
 #sectionCalculateur > .description {
@@ -62,21 +61,16 @@ p {
 }
 
 #calculatrice {    
-    border-radius: 16px;
+    border-radius: 1rem;
 
-    margin-left: auto;
-    margin-right: auto;
-
+    margin: auto;
     padding: 32px;
     gap: 24px;
 
     text-align: left;
-
-    max-width: 87%;
+    max-width: 20.5rem;
 
     background-color: #FFFFFF;
-
-
 }
 
 #calculatrice form {
@@ -84,7 +78,9 @@ p {
     flex-direction: column;
     align-items: center;
 
-    padding: 24px;
+    padding: 1.5rem;
+
+    margin-bottom: 1.5rem;
 }
 
 #calculatrice form > div {
@@ -92,7 +88,7 @@ p {
     flex-direction: column;   
     justify-content: center; 
 
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 #calculatrice form label {
@@ -101,37 +97,27 @@ p {
     line-height: 21px;
     text-align: left;
 
-    color: #5E6E85;
+    margin-bottom: 0.5rem;
 
+    color: #5E6E85;
 }
 
 #h3calc {
     font-size: 24px;
-}
-
-#valeurlab {
-    font-weight: 400;
-    font-size: 14px;
-}
-
-#startlab {
-    font-weight: 400;
-    font-size: 14px;
-}
-
-#convertlab {
-    font-weight: 400;
-    font-size: 14px;
+    margin: 0px;
 }
 
 #valeur {
     border-radius: 12px;
     padding: 20px 24px;
-    max-width: 164px;
+    max-width: 10.25rem;
 
     text-align: center;
 
-    border: 1px solid #5E6E85
+    border: 1px solid #5E6E85;
+
+    font-weight: 600;
+    font-size: 20px;
 }
 
 #startunit {
@@ -140,14 +126,53 @@ p {
 
     max-width: 115px;
 
-    border: 1px solid #5E6E85
+    border: 1px solid #5E6E85;
+
+    margin-bottom: 2rem;    
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.05em;
+    text-align: left;
+
+    color: #0F722E
 }
 
-#convertunit{
-    max-width: 115px;
-
-    border-radius: 12px;
+#convertunit {
     padding: 20px 24px;
+
+    margin-bottom: 2rem;   
+    
+    border: 1px solid #5E6E85;
+    border-radius: 12px;
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.05em;
+    text-align: left;
+
+    color: #0F722E;
+
+    /*
+     * Flèche est verte, mais devrait être grise
+     */
+}
+
+#convertunit option{
+    all:initial;
+    font-family: Inter, sans-serif;
+}
+
+.temp {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.05em;
+    text-align: left;
+
+    color: #0F722E;
 }
 
 #convertbutton{
@@ -160,9 +185,7 @@ p {
     line-height: 1rem;
 
     border-radius: 25px;
-    padding: 1px 10px;
-
-    
+    padding: 1px 10px;      
 
     max-width: 5rem;
 
@@ -175,6 +198,10 @@ p {
 }
 
 #convertresult {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     border: solid;
     padding: 2rem;
     
@@ -184,18 +211,17 @@ p {
     color: white;
     background-color: #3a6d4a;
 
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
     border-top-left-radius: 16px;
-    border-top-right-radius: 999px;
     border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 999px;
 
-    line-height: 29px;
+    text-align: justify;
 
+    height: 9.5rem;
 }
 
-img {
-    max-width: 100%;
-}
+
 
 /* Mobile first */
 
@@ -203,6 +229,80 @@ img {
     max-width: 87%;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Comprendre les conversions */
+
+#sectionComprendre {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+#sectionImage {
+    width: 19rem;
+    height: 19.375rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    border: hidden;
+    border-radius: 20px;
+
+    background-color: rgba(100, 166, 120, 0.15);
+}
+
+#sectionImage > img {
+    max-height: 100%;
+}
+
+
+/* Conversions */
+
+#sectionConversions {
+    background-color: rgba(100, 166, 120, 0.15);
+    margin-bottom: 58px;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+#sectionConversions > .conversionContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.iconeConversion {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+
+    width: 57px;
+    height: 61px;
+    background-color: #3A6D4A;
+
+    border: hidden;
+    border-radius: 50%;
+}
+
+#icone1 {
+    margin-bottom: 42px;
+}
+
+#icone2 {
+    margin-top: 50px;
+    margin-bottom: 27px;
+}
+
+#icone3 {
+    margin-top: 50px;
+    margin-bottom: 26px;
 }
 
 /* Faits */
@@ -228,7 +328,7 @@ img {
 
     row-gap: 1rem;
 
-    padding-left: 1rem;
+    padding-left: 0.625rem;
 }
 
 .card {    
@@ -280,8 +380,9 @@ img {
 
     background-color: #FFFFFF;
 
-    border-collapse: collapse;
-    border: 2px solid #F2F2F2;
+    border: 2px hidden #F2F2F2;
+    border-spacing: 0;
+    border-collapse: separate;
     border-radius: 4px;
 }
 
@@ -361,6 +462,7 @@ img {
      */
     width: 334px;
     height: 292px;
+    object-fit: fill;
 }
 
 /* Tablette */

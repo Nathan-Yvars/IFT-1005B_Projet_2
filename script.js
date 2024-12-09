@@ -26,7 +26,7 @@ function Convert(){
     }
     else {
         const newval = val * conversion[convertunit];
-        document.getElementById("convertresult").textContent = newval;
+        document.getElementById("convertresult").textContent = "Résultat\n" + newval;
     }    
  };
 
