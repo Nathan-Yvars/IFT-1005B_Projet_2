@@ -505,8 +505,8 @@ p {
 @media screen and (min-width: 641px) {
 
     h3 {
-        font-size: 24px;
-        line-height: 29px;
+        font-size: 1.5rem;
+        line-height: 1.813rem;
     }
 
     /* Calculateur */
@@ -540,20 +540,26 @@ p {
         align-items:start;
         justify-content: baseline;
 
-        margin-bottom: 111px;
+        margin-bottom: 6.938rem;
         
-        gap: 34px;
-        padding-left: 60px;
+        gap: 2rem;
+        padding-left: 3.75rem;
         padding-right: 0.5rem;
-        padding-top: 106px;
+        padding-top: 6.625rem;
+    }
+
+    #sectionComprendre > .description {
+        padding-right: 2.5%;
     }
 
     #sectionComprendre h2 {
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
     }
 
-    #sectionImage {
+    #sectionImage, #sectionImage  img {
         margin: 0px;
+        max-height: 51vw;
+        max-width: 20.313rem;
     }
 
     /* Conversions */
@@ -612,6 +618,21 @@ p {
         grid-area: main;
     } */
 
+    #sectionComprendre > .description {
+        align-self: center;
+        padding-right: 12%;
+        padding-left: 5%;
+    }
+
+    #sectionImage {
+        margin-left: 5%;
+    }
+
+    #sectionImage, #sectionImage  img {
+        max-width: 36.375rem;
+        max-height: 54vw;
+    }
+
     #sectionConversions {
         display: grid;
         grid-template: "conv1 conv2 conv3" auto / 1fr 1fr 1fr;
@@ -638,7 +659,7 @@ p {
     }
 
     #sectionFaits > .description p{
-        max-width: 50%;
+        width: 50%;
     }
 
     #sectionTableau table{
