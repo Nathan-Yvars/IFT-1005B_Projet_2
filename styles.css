@@ -641,12 +641,23 @@ p {
         max-width: 50%;
     }
 
+    #sectionTableau table{
+        width: 90%;
+    }
+
     #sectionTableau h2{
         text-align: left;
         padding-left: 5%;
     }
 
+    #sectionTableau p{
+        text-align: left;
+        padding-left: 5%;
+    }
+
     #cardContainer {
+        padding-left: 5%;
+        padding-right: 5%;
         display: grid;
         grid-template:  "card1 card2 card3" auto
                         "card4 card5 card6" auto / 1fr 1fr 1fr;
