@@ -656,29 +656,35 @@ p {
 
     #sectionFaits h2{
         text-align: left;
+        padding-left: 10%;
+    }
+
+    #sectionFaits > .description {
+        max-width: 100%;
     }
 
     #sectionFaits > .description p{
         width: 50%;
+        padding-left: 10%;
     }
 
     #sectionTableau table{
-        width: 90%;
+        width: 80%;
     }
 
     #sectionTableau h2{
         text-align: left;
-        padding-left: 5%;
+        padding-left: 10%;
     }
 
     #sectionTableau p{
         text-align: left;
-        padding-left: 5%;
+        padding-left: 10%;
     }
 
     #cardContainer {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
         display: grid;
         grid-template:  "card1 card2 card3" auto
                         "card4 card5 card6" auto / 1fr 1fr 1fr;
@@ -689,22 +695,34 @@ p {
     }
 
     #card2 {
-        grid-area: card2 ;
-    }
-
-    #card3 {
-        grid-area: card3 ;
-    }
-
-    #card4 {
         grid-area: card4 ;
     }
 
-    #card5 {
+    #card3 {
         grid-area: card5 ;
+    }
+
+    #card4 {
+        grid-area: card2 ;
+    }
+
+    #card5 {
+        grid-area: card3 ;
     }
 
     #card6 {
         grid-area: card6 ;
     }    
+
+    #sectionVideo h2 {
+        text-align: left;
+        margin-left: 0%;
+        padding-left: 10%;
+    }
+
+    #sectionVideo p {
+        text-align: left;
+        margin-left: 0%;
+        padding-left: 10%;
+    }
 }
