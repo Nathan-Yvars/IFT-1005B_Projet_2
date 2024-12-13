@@ -32,7 +32,7 @@ function Convert(){
         document.getElementById("tagResultat").textContent = "Résulat";
         document.getElementById("convertResult").style.fontSize = "4rem";
         document.getElementById("convertResult").style.lineHeight = "70px";
-        document.getElementById("convertResult").textContent = newval;
+        document.getElementById("convertResult").textContent = parseFloat(newval.toFixed(4));
 
     }    
  };
