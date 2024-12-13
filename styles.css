@@ -119,9 +119,10 @@ p {
     color: #5E6E85;
 }
 
-#h3calc {
+#calculatrice h3 {
     font-size: 1.5rem;
     margin: 0rem;
+    margin-bottom: 28px;
 }
 
 #valeur {
@@ -141,7 +142,7 @@ p {
 #startunit {
     box-sizing: border-box;
     border-radius: 0.75rem;
-    padding: 1.25rem 1.5rem;
+    padding: 1.25rem 0px 1.25rem 1rem;
 
     max-width: 7.2rem;
 
@@ -153,14 +154,13 @@ p {
     font-weight: 600;
     line-height: 1.8rem;
     letter-spacing: -0.05em;
-    text-align: left;
 
     color: #0F722E
 }
 
 #convertunit {
     box-sizing: border-box;
-    padding: 1.25rem 1.5rem;
+    padding: 1.25rem 0px 1.25rem;
 
     margin-bottom: 2rem;   
     
@@ -171,7 +171,6 @@ p {
     font-weight: 600;
     line-height: 1.8rem;
     letter-spacing: -0.05em;
-    text-align: left;
 
     color: #0F722E;
 
@@ -186,6 +185,9 @@ p {
 }
 
 #convertbutton{
+    height: 1.625rem;
+    width: 5rem;
+
     color: white;
     background-color: #3a6d4a;
     border: none;
@@ -195,11 +197,6 @@ p {
     line-height: 1rem;
 
     border-radius: 1.563rem;
-    padding: 0.063rem 0.625rem;      
-
-    max-width: 5rem;
-
-    border: 0.188rem solid #3A6D4A
 }
 
 #convertbutton:hover {
@@ -343,6 +340,10 @@ p {
     padding-left: 0.625rem;
 }
 
+#cardContainer h3{    
+    margin: 0px;
+}
+
 .card {    
     padding: 2rem;
     border-radius: 1rem;
@@ -358,6 +359,7 @@ p {
     align-items: center;
     text-align: left;
     gap: 1rem;
+
     margin-bottom: 1rem;
 }
 
@@ -524,6 +526,10 @@ p {
 
     #calculatrice {
         max-width: 35.25rem;
+    }
+
+    #calculatrice h3 {
+        margin-bottom: 2rem;
     }
 
     #calculatrice form {
@@ -693,8 +699,6 @@ p {
         
         margin: 0px;
         margin-right: 10px;
-
-        padding-left: 0px;
     }
     
     #convertunit {
@@ -703,8 +707,6 @@ p {
 
         margin: 0px;
         margin-right: 10px;
-
-        padding-left: 0px;
     }
 
     #icone1 {
@@ -761,13 +763,19 @@ p {
     #sectionComprendre {
         align-items: center;
         justify-content: center;
-        gap: 0px;
+        gap: 99px;
         padding-top: 63px;
         padding-bottom: 56px;
     }
 
     #sectionComprendre .description {
         max-width: 465px;
+        margin: 0px;
+    }
+
+
+    #sectionImage {
+        margin: 0px;
     }
 
     #sectionImage > img {
@@ -777,9 +785,14 @@ p {
 
     /* Faits */
 
+    #sectionFaits {    
+        max-width: 1182px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #sectionFaits h2{
         text-align: left;
-        padding-left: 10%;
     }
 
     #sectionFaits > .description {
@@ -788,16 +801,20 @@ p {
 
     #sectionFaits > .description p{
         max-width: 564px;
-        padding-left: 10%;
     }
 
     #cardContainer {
-        column-gap: 45px;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding: 0px;
+        row-gap: 52px;
         display: grid;
         grid-template:  "card1 card2 card3" auto
                         "card4 card5 card6" auto / 1fr 1fr 1fr;
+    }
+
+    .card {
+        box-sizing: border-box;
+        height: 288px;
+        width: 365px;
     }
 
     #card1 {
