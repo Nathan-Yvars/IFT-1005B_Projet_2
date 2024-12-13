@@ -15,7 +15,7 @@ const conversion = {
 function Convert(){
     const val = parseFloat(document.getElementById('valeur').value);
     const startunit = document.getElementById("startunit").value;
-    const convertunit = document.getElementById("convertunit").value;
+    const convertunit = document.getElementById("targetUnit").value;
 
     console.log(val);
     console.log(startunit);
