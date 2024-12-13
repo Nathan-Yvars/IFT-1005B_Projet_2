@@ -159,6 +159,7 @@ p {
 }
 
 #convertunit {
+
     box-sizing: border-box;
     padding: 1.25rem 0px 1.25rem;
 
@@ -171,6 +172,10 @@ p {
     font-weight: 600;
     line-height: 1.8rem;
     letter-spacing: -0.05em;
+
+    
+    width: 101px;
+    height: 69px;
 
     color: #0F722E;
 
@@ -715,6 +720,7 @@ p {
     }    
 
     #calculatrice {
+        width: 574px;
         margin: 0px;
         box-sizing: border-box;
         max-width: 588px;

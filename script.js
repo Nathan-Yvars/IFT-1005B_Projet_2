@@ -23,16 +23,16 @@ function Convert(){
 
     if (isNaN(val) || val < 0){
         document.getElementById("tagResultat").innerHTML = "";
-        document.getElementById("convertresult").style.fontSize = "4rem";
-        document.getElementById("convertresult").style.lineHeight = "70px";
-        document.getElementById("convertresult").textContent = 'Erreur';
+        document.getElementById("convertResult").style.fontSize = "4rem";
+        document.getElementById("convertResult").style.lineHeight = "70px";
+        document.getElementById("convertResult").textContent = 'Erreur';
     }
     else {
         const newval = val * conversion[convertunit];
         document.getElementById("tagResultat").textContent = "Résulat";
-        document.getElementById("convertresult").style.fontSize = "4rem";
-        document.getElementById("convertresult").style.lineHeight = "70px";
-        document.getElementById("convertresult").textContent = newval;
+        document.getElementById("convertResult").style.fontSize = "4rem";
+        document.getElementById("convertResult").style.lineHeight = "70px";
+        document.getElementById("convertResult").textContent = newval;
 
     }    
  };
