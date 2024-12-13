@@ -568,7 +568,7 @@ p {
         text-align: left;
         margin-left: auto;
         margin-right: auto;
-        max-width: 325px;
+        max-width: 20.313rem;
     }
 
     /* Faits */
@@ -633,20 +633,48 @@ p {
         max-height: 54vw;
     }
 
+    #icone1 {
+        margin-top: 0;
+        margin-bottom: 2.75rem;
+    }
+
+    #icone2 {
+        margin-top: 0;
+        margin-bottom: 2.75rem;
+    }
+
+    #icone3 {
+        margin-top: 0;
+        margin-bottom: 2.75rem;
+    }
+
     #sectionConversions {
+        padding-left: 10%;
+        padding-right: 10%;
         display: grid;
         grid-template: "conv1 conv2 conv3" auto / 1fr 1fr 1fr;
     }
 
+    #conv1 > .description {
+        margin-left: 0rem;
+    }
+
     #conv1 {
+        max-width: 23.125rem;
         grid-area: conv1;
     }
 
     #conv2 {
+        max-width: 23.125rem;
         grid-area: conv2;
     }
 
+    #conv3 > .description {
+        margin-right: 0rem;
+    }
+
     #conv3 {
+        max-width: 23.125rem;
         grid-area: conv3;
     }
 
