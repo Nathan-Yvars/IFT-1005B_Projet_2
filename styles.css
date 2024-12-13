@@ -403,14 +403,18 @@ p {
     font-size: 3.7vw;
 }
 
-#sectionTableau > table th, #sectionTableau > table td {
-    vertical-align: middle;
+
+#sectionTableau > table thead {
+    vertical-align: top;
 }
 
 #sectionTableau > table th {
+    text-align: left;
+
     font-size: 1rem;
     font-size: 4vw;
     font-weight: 600;
+
     padding: 1rem; 
 }
 
@@ -507,8 +511,6 @@ p {
     #sectionTableau > table th {
         font-size: 1rem;
     }
-
-
 }
 
 /* Tablette */
@@ -632,6 +634,21 @@ p {
     #cardContainer h3{
         font-size: 20px;
         line-height: 24.2px;
+        letter-spacing: -0.05em;
+    }
+
+    /* Tableau */
+
+    #sectionTableau > table {
+        max-width: 100%;
+        width: 564px;
+    }
+
+    #sectionTableau > table th {
+        width: 33.33%;
+        
+        font-size: 20px;
+        font-weight: 600;
         letter-spacing: -0.05em;
     }
 
@@ -814,7 +831,7 @@ p {
     }
 
     #cardContainer {
-        padding: 0px;
+        max-width: 100%;
         row-gap: 52px;
         display: grid;
         grid-template:  "card1 card2 card3" auto
@@ -824,7 +841,7 @@ p {
     .card {
         box-sizing: border-box;
         height: 288px;
-        width: 365px;
+        max-width: 365px;
     }
 
     #card1 {
@@ -853,21 +870,36 @@ p {
 
     /* Tableau */
 
+    #sectionTableau {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #sectionTableau > div {
+        max-width: 1159px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #sectionTableau table{
-        width: 80%;
+        width: 1159px;
     }
 
     #sectionTableau h2{
         text-align: left;
-        padding-left: 10%;
     }
 
     #sectionTableau p{
         text-align: left;
-        padding-left: 10%;
     }
 
     /* Vidéo */
+
+    #sectionVideo {
+        max-width: 1085px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     #sectionVideo h2 {
         text-align: left;
