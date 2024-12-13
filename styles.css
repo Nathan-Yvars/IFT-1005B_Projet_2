@@ -586,6 +586,11 @@ p {
         letter-spacing: -0.05em;
     }
 
+    #sectionTableau > table th:last-child{
+        background-color: #0F722E;
+        color: #FFFFFF;
+    }
+
     /* Vidéo */
 
     #sectionVideo {
