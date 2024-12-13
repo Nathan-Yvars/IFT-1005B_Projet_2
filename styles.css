@@ -125,6 +125,7 @@ p {
 }
 
 #valeur {
+    box-sizing: border-box;
     border-radius: 0.75rem;
     padding: 1.25rem 1.5px;
     max-width: 10.25rem;
@@ -138,10 +139,11 @@ p {
 }
 
 #startunit {
+    box-sizing: border-box;
     border-radius: 0.75rem;
     padding: 1.25rem 1.5rem;
 
-    max-width: 7.188rem;
+    max-width: 7.2rem;
 
     border: 0.063rem solid #5E6E85;
 
@@ -149,7 +151,7 @@ p {
 
     font-size: 1.5rem;
     font-weight: 600;
-    line-height: 1.816rem;
+    line-height: 1.8rem;
     letter-spacing: -0.05em;
     text-align: left;
 
@@ -157,6 +159,7 @@ p {
 }
 
 #convertunit {
+    box-sizing: border-box;
     padding: 1.25rem 1.5rem;
 
     margin-bottom: 2rem;   
@@ -166,7 +169,7 @@ p {
 
     font-size: 1.5rem;
     font-weight: 600;
-    line-height: 1.816rem;
+    line-height: 1.8rem;
     letter-spacing: -0.05em;
     text-align: left;
 
@@ -206,8 +209,9 @@ p {
 
 #resultatContainer {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+
     
     color: white;
     background-color: #3a6d4a;
@@ -218,14 +222,18 @@ p {
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 
+    box-sizing: border-box;
     height: 150px;
+    padding: 2rem;
 }
 
-#convertresult {      
-    padding: 2rem;
+#tagResultat {
+    line-height: 1.5rem;
+}
+
+#convertResult {      
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
     font-weight: 600;
     font-size: 6.4vw;
     line-height: 29px;
@@ -528,17 +536,15 @@ p {
         margin-bottom: 1.5rem;
     }
 
-    #convertresult {
+    #convertResult {
         font-size: 2rem;
     }
 
     /* Comprendre */
 
     #sectionComprendre {
-        display: flex;
         flex-direction: row; 
-        align-items:start;
-        justify-content: baseline;
+        align-items: start;
 
         margin-bottom: 6.938rem;
         
@@ -554,9 +560,18 @@ p {
 
     #sectionComprendre h2 {
         margin-bottom: 2rem;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 52.8px;
+        letter-spacing: -0.05em;
+        text-align: left;
     }
 
-    #sectionImage, #sectionImage  img {
+    #sectionImage {
+        margin-top: 0px;
+    }
+
+    #sectionImage > img {
         margin: 0px;
         max-height: 51vw;
         max-width: 20.313rem;
@@ -605,33 +620,89 @@ p {
 /* Desktop */
 
 @media screen and (min-width: 1008px) {
-    /* #sectionCalculateur {
-        display: grid;
-        grid-area: "main descr" auto / 1fr 1fr;
+
+    /* Calculateur */
+
+    #sectionCalculateur {
+        display: flex;
+        column-gap: 0px;
+        align-items: flex-end;  
+        justify-content: center;      
+        /*max-width: 1161px;*/
+
+        text-align: left;
+
+        padding-top: 172px;
+        padding-right: 132px;
+        padding-left: 102px;
+        padding-bottom: 160px;
     }
 
-    #descrcalc {
-        grid-area: descr;
+    #sectionCalculateur .description{
+        text-align: left;
+        margin: 0px;
+        margin-right: 29px;
+        padding: 0px;
     }
+
+    #sectionCalculateur .description > p {
+        padding: 0px;
+        max-width: 465px;
+    }
+
+    #sectionCalculateur h1 {
+        margin-bottom: 35px;
+
+        font-size: 64px;
+        line-height: 70.4px;
+        letter-spacing: -0.05em;
+    }    
 
     #calculatrice {
-        grid-area: main;
-    } */
-
-    #sectionComprendre > .description {
-        align-self: center;
-        padding-right: 12%;
-        padding-left: 5%;
+        margin: 0px;
+        box-sizing: border-box;
+        max-width: 588px;
+        max-height: 405px;
     }
 
-    #sectionImage {
-        margin-left: 5%;
+    #calculatrice form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
     }
 
-    #sectionImage, #sectionImage  img {
-        max-width: 36.375rem;
-        max-height: 54vw;
+    #calculatrice form > div {
+        max-height: 98px;
     }
+
+    #valeur {
+        height: 69px;
+        margin-right: 1.5rem;
+    }
+    
+    #startunit {
+        height: 69px;
+        width: 115px;
+        
+        margin: 0px;
+        margin-right: 10px;
+
+        padding-left: 0px;
+    }
+    
+    #convertunit {
+        width: 101px;
+        height: 69px;
+
+        margin: 0px;
+        margin-right: 10px;
+
+        padding-left: 0px;
+    }
+    
+    /* Conversions */
 
     #sectionConversions {
         display: grid;
@@ -654,6 +725,27 @@ p {
         text-align: left;
     }
 
+    /* Comprendre */
+
+    #sectionComprendre {
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        padding-top: 63px;
+        padding-bottom: 56px;
+    }
+
+    #sectionComprendre .description {
+        max-width: 465px;
+    }
+
+    #sectionImage > img {
+        max-height: 554px;
+        max-width: 582px;
+    }
+
+    /* Faits */
+
     #sectionFaits h2{
         text-align: left;
         padding-left: 10%;
@@ -664,25 +756,12 @@ p {
     }
 
     #sectionFaits > .description p{
-        width: 50%;
-        padding-left: 10%;
-    }
-
-    #sectionTableau table{
-        width: 80%;
-    }
-
-    #sectionTableau h2{
-        text-align: left;
-        padding-left: 10%;
-    }
-
-    #sectionTableau p{
-        text-align: left;
+        max-width: 564px;
         padding-left: 10%;
     }
 
     #cardContainer {
+        column-gap: 45px;
         padding-left: 10%;
         padding-right: 10%;
         display: grid;
@@ -714,6 +793,28 @@ p {
         grid-area: card6 ;
     }    
 
+    /* Tableau */
+
+    #sectionTableau table{
+        width: 80%;
+    }
+
+    #sectionTableau h2{
+        text-align: left;
+        padding-left: 10%;
+    }
+
+    #sectionTableau p{
+        text-align: left;
+        padding-left: 10%;
+    }
+
+    #sectionTableau {
+
+    }
+
+    /* Vidéo */
+
     #sectionVideo h2 {
         text-align: left;
         margin-left: 0%;
@@ -724,5 +825,10 @@ p {
         text-align: left;
         margin-left: 0%;
         padding-left: 10%;
+    }
+
+    #sectionVideo video {
+        max-width: 609px;
+        aspect-ratio: 609/399;
     }
 }

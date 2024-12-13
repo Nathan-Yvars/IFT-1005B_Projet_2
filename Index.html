@@ -20,42 +20,40 @@ Nathan Yvars | 20249300
                     pouces et pieds, vous aidant à adapter vos mesures à différents contextes.</p>
             </div>
             <div id="calculatrice" >
-                <div id="formatcalc">
-                    <div id="calch3">
-                        <h3 id="h3calc">Entrez les valeurs</h3>
+                <div id="calch3">
+                    <h3 id="h3calc">Entrez les valeurs</h3>
+                </div>    
+                <form>    
+                    <div>
+                        <label for="valeur" id="lblValeur">
+                            Valeur
+                        </label>
+                        <input type="text" name="valeur" id="valeur" placeholder="Entrez la valeur">
                     </div>    
-                    <form>    
-                        <div id="divval">
-                            <label for="valeur" id="lbValeur">
-                                Valeur
-                            </label>
-                            <input type="text" name="valeur" id="valeur" placeholder="Entrez la valeur">
-                        </div>    
-                        <div id="divstart">
-                            <label for="startunit" id="lbStart">
-                                Unité de la valeur
-                            </label>
-                            <span name="startunit" id="startunit">
-                                m
-                            </span>
-                        </div>                       
-                        <div id="divconvert">
-                            <label for="convertunit" id="lbConvert">
-                                Unité cible
-                            </label>
-                            <select name="convertunit" id="convertunit">
-                                <option value="cm" selected>cm</option>
-                                <option value="km">km</option>
-                                <option value="pied">pied</option>
-                                <option value="pouce">pouce</option>
-                            </select>
-                        </div>   
-                        <button id="convertbutton" type="button">Convertir</button>                     
-                    </form>  
-                </div> 
+                    <div>
+                        <label for="startunit" id="lblStart">
+                            Unité de la valeur
+                        </label>
+                        <span name="startunit" id="startunit">
+                            m
+                        </span>
+                    </div>                       
+                    <div>
+                        <label for="convertunit" id="lblConvert">
+                            Unité cible
+                        </label>
+                        <select name="convertunit" id="convertunit">
+                            <option value="cm" selected>cm</option>
+                            <option value="km">km</option>
+                            <option value="pied">pied</option>
+                            <option value="pouce">pouce</option>
+                        </select>
+                    </div>   
+                    <button id="convertbutton" type="button">Convertir</button>                     
+                </form>  
                 <div id="resultatContainer">
                     <span id="tagResultat"></span>
-                    <div id="convertresult">Entrez les valeurs dans la calculatrice</div>
+                    <div id="convertResult">Entrez les valeurs dans la calculatrice</div>
                 </div>           
             </div>
         </div>        
