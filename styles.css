@@ -443,7 +443,8 @@ p {
     color: #FFFFFF;
 }
 
- /* Vidéo complémentaire */
+/* Vidéo complémentaire */
+
 #sectionVideo{
     text-align: center;
 
@@ -525,6 +526,7 @@ p {
     }   
 
     #calculatrice {
+        box-sizing: border-box;
         max-width: 35.25rem;
     }
 
@@ -536,10 +538,36 @@ p {
         display: flex;
         flex-direction: row;
         align-items: center;
-    
-        padding: 1.5rem;
+        justify-content: start;
+
+        padding: 0px;
     
         margin-bottom: 1.5rem;
+    }
+
+    #calculatrice form > div {
+        max-height: 98px;
+    }
+
+    #valeur {
+        height: 69px;
+        margin-right: 1.5rem;
+    }
+    
+    #startunit {
+        height: 69px;
+        width: 115px;
+        
+        margin: 0px;
+        margin-right: 10px;
+    }
+    
+    #convertunit {
+        width: 101px;
+        height: 69px;
+
+        margin: 0px;
+        margin-right: 10px;
     }
 
     #convertResult {
@@ -622,8 +650,8 @@ p {
         text-align: center;
     }
 
-    #sectionVideo > video {
-        width: 79%;    
+    #sectionVideo video {
+        max-width: 609px;
         aspect-ratio: 609/399;
     }
 }
@@ -679,7 +707,6 @@ p {
     #calculatrice form {
         display: flex;
         align-items: center;
-        justify-content: center;
         margin: 0px;
         padding: 0px;
     }
@@ -688,26 +715,34 @@ p {
         max-height: 98px;
     }
 
-    #valeur {
-        height: 69px;
-        margin-right: 1.5rem;
-    }
     
-    #startunit {
-        height: 69px;
-        width: 115px;
-        
-        margin: 0px;
-        margin-right: 10px;
-    }
-    
-    #convertunit {
-        width: 101px;
-        height: 69px;
 
-        margin: 0px;
-        margin-right: 10px;
+    /* Comprendre */
+
+    #sectionComprendre {
+        align-items: center;
+        justify-content: center;
+        gap: 99px;
+        padding-top: 63px;
+        padding-bottom: 56px;
     }
+
+    #sectionComprendre .description {
+        max-width: 465px;
+        margin: 0px;
+    }
+
+
+    #sectionImage {
+        margin: 0px;
+    }
+
+    #sectionImage > img {
+        max-height: 554px;
+        max-width: 582px;
+    }
+
+    /* Conversions */
 
     #icone1 {
         margin-top: 0;
@@ -756,31 +791,6 @@ p {
 
     #sectionConversion p {
         text-align: left;
-    }
-
-    /* Comprendre */
-
-    #sectionComprendre {
-        align-items: center;
-        justify-content: center;
-        gap: 99px;
-        padding-top: 63px;
-        padding-bottom: 56px;
-    }
-
-    #sectionComprendre .description {
-        max-width: 465px;
-        margin: 0px;
-    }
-
-
-    #sectionImage {
-        margin: 0px;
-    }
-
-    #sectionImage > img {
-        max-height: 554px;
-        max-width: 582px;
     }
 
     /* Faits */
@@ -857,10 +867,6 @@ p {
         padding-left: 10%;
     }
 
-    #sectionTableau {
-
-    }
-
     /* Vidéo */
 
     #sectionVideo h2 {
@@ -873,10 +879,5 @@ p {
         text-align: left;
         margin-left: 0%;
         padding-left: 10%;
-    }
-
-    #sectionVideo video {
-        max-width: 609px;
-        aspect-ratio: 609/399;
     }
 }
