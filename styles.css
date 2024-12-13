@@ -775,45 +775,6 @@ p {
 
     /* Conversions */
 
-    
-    /*
-
-    #sectionConversions {
-        padding-left: 10%;
-        padding-right: 10%;
-        display: grid;
-        grid-template: "conv1 conv2 conv3" auto / 1fr 1fr 1fr;
-    }
-
-    #conv1 > .description {
-        margin-left: 0rem;
-    }
-
-    #conv1 {
-        max-width: 23.125rem;
-        grid-area: conv1;
-    }
-
-    #conv2 {
-        max-width: 23.125rem;
-        grid-area: conv2;
-    }
-
-    #conv3 > .description {
-        margin-right: 0rem;
-    }
-
-    #conv3 {
-        max-width: 23.125rem;
-        grid-area: conv3;
-    }
-
-    #sectionConversion p {
-        text-align: left;
-    }
-    
-    */
-
     #sectionConversions {
         display: flex;
         flex-direction: row;
