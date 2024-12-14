@@ -266,8 +266,8 @@ p {
 }
 
 #sectionImage > img {
-    max-height: 19.375rem;
     max-width: 81vw;
+    aspect-ratio: 304/310;
 }
 
 
@@ -615,9 +615,10 @@ p {
     }
 
     #sectionImage > img {
-        margin: 0rem;
         max-height: 51vw;
         max-width: 20.313rem;
+        margin: 0;
+        aspect-ratio: 325/327;
     }
 
     /* Conversions */
@@ -664,6 +665,10 @@ p {
         font-size: 1rem;
         font-weight: 400;
         line-height: 1.5rem;
+    }
+
+    #sectionTableau > div {
+        margin-bottom: 3rem;
     }
 
     #sectionTableau > table th {
@@ -717,6 +722,8 @@ p {
         margin: 0rem;
         margin-right: 1.813rem;
         padding: 0rem 0rem 0.688rem 0rem;
+
+        width: 36.6875rem;
     }
 
     #sectionCalculateur .description > p {
@@ -757,23 +764,26 @@ p {
         align-items: center;
         justify-content: center;
         gap: 6.188rem;
-        padding-top: 3.938rem;
-        padding-bottom: 3.5rem;
+        padding: 4.3125rem 10.75rem 3.5rem 7.625rem;
     }
 
     #sectionComprendre .description {
         max-width: 29.063rem;
         margin: 0rem;
+        padding: 0;
     }
 
 
     #sectionImage {
         margin: 0rem;
+        max-height: 34.625rem;
+        max-width: 36.375rem;
     }
 
     #sectionImage > img {
         max-height: 34.625rem;
         max-width: 36.375rem;
+        aspect-ratio: 582/554;
     }
 
     /* Conversions */
@@ -817,11 +827,16 @@ p {
         line-height: 1.5rem;  
     }
 
+    /* margin-left pour mieux paraître avec texte aligné à gauche */
+
     #icone1, #icone2, #icone3 {
         margin-top: 0;
         margin-bottom: 2.8125rem;
         margin-left: 36.7%;
+    }
 
+    #icone1 {
+        margin-left: 32.6%;
     }
 
 
@@ -888,6 +903,10 @@ p {
     #sectionTableau {
         padding-left: 10%;
         padding-right: 10%;
+        padding-bottom: 6.4375rem;
+        padding-top: 3.25rem;
+
+        margin-bottom: 3.4375rem;
     }
 
     #sectionTableau > div {
