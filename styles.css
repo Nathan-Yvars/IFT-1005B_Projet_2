@@ -24,7 +24,7 @@ h1, h2 {
 
 h1 {
     font-size: 15vw;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 h2 {
@@ -120,13 +120,13 @@ p {
 #calculatrice h3 {
     font-size: 1.5rem;
     margin: 0rem;
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
 }
 
 #valeur {
     box-sizing: border-box;
     border-radius: 0.75rem;
-    padding: 1.25rem 1.5px;
+    padding: 1.25rem 0.094rem;
     max-width: 10.25rem;
 
     text-align: center;
@@ -140,7 +140,7 @@ p {
 #startunit {
     box-sizing: border-box;
     border-radius: 0.75rem;
-    padding: 1.25rem 0px 1.25rem 1rem;
+    padding: 1.25rem 0rem 1.25rem 1rem;
 
     width: 7.2rem;
 
@@ -171,8 +171,8 @@ p {
     letter-spacing: -0.05em;
 
     
-    width: 115px;
-    height: 69px;
+    width: 7.188rem;
+    height: 4.313rem;
 
     color: #0F722E;
 
@@ -222,7 +222,7 @@ p {
     border-bottom-left-radius: 1rem;
 
     box-sizing: border-box;
-    height: 150px;
+    height: 9.375;
     padding: 2rem;
 }
 
@@ -235,7 +235,7 @@ p {
     align-items: start;
     font-weight: 600;
     font-size: 6.4vw;
-    line-height: 29px;
+    line-height: 1.813rem;
     text-align: left;
 }
 
@@ -291,7 +291,7 @@ p {
 }
 
 .iconeConversion {
-    margin-bottom: 45px;
+    margin-bottom: 2.813rem;
 }
 
 .iconeConversion {
@@ -353,7 +353,7 @@ p {
 }
 
 #cardContainer h3{    
-    margin: 0px;
+    margin: 0rem;
 }
 
 .card {    
@@ -434,12 +434,12 @@ p {
 
 #sectionTableau > table tr:nth-child(even){
     background-color: #F2F2F2;
-    box-shadow: 0px -0.063rem 0px 0px #E6E6E6 inset;
+    box-shadow: 0rem -0.063rem 0rem 0rem #E6E6E6 inset;
 }
 
 #sectionTableau > table tr:nth-child(even) td:nth-child(even) {
     background-color: #9AC5A7;
-    box-shadow: 0px -0.063rem 0px 0px #E6E6E6 inset;
+    box-shadow: 0rem -0.063rem 0rem 0rem #E6E6E6 inset;
 }
 
 #sectionTableau > table th:last-child{
@@ -470,7 +470,7 @@ p {
     margin-right: auto;    
     margin-bottom: 2.188rem;
 
-    padding: 0px;
+    padding: 0rem;
 
     max-width: 93%;
 }
@@ -550,33 +550,33 @@ p {
         align-items: center;
         justify-content: start;
 
-        padding: 0px;
+        padding: 0rem;
     
         margin-bottom: 1.5rem;
     }
 
     #calculatrice form > div {
-        max-height: 98px;
+        max-height: 6.125rem;
     }
 
     #valeur {
-        height: 69px;
+        height: 4.313rem;
         margin-right: 1.5rem;
     }
     
     #startunit {
-        height: 69px;
-        width: 115px;
+        height: 4.313rem;
+        width: 7.188rem;
         
-        margin: 0px;
-        margin-right: 10px;
+        margin: 0rem;
+        margin-right: 0.625rem;
     }
     
     #targetUnit {
-        height: 69px;
+        height: 4.313rem;
 
-        margin: 0px;
-        margin-right: 10px;
+        margin: 0rem;
+        margin-right: 0.625rem;
     }
 
     #convertResult {
@@ -603,19 +603,19 @@ p {
 
     #sectionComprendre h2 {
         margin-bottom: 2rem;
-        font-size: 48px;
+        font-size: 3rem;
         font-weight: 600;
-        line-height: 52.8px;
+        line-height: 3.3rem;
         letter-spacing: -0.05em;
         text-align: left;
     }
 
     #sectionImage {
-        margin-top: 0px;
+        margin-top: 0rem;
     }
 
     #sectionImage > img {
-        margin: 0px;
+        margin: 0rem;
         max-height: 51vw;
         max-width: 20.313rem;
     }
@@ -624,8 +624,8 @@ p {
 
     .conversionContainer {
         box-sizing: border-box;
-        max-width: 325px;
-        width: 325px;
+        max-width: 20.313rem;
+        width: 20.313rem;
         text-align: left;
         margin-left: auto;
         margin-right: auto;
@@ -634,7 +634,7 @@ p {
     .conversionContainer > .description {           
         display: flex;
         flex-direction: column;
-        row-gap: 24px;
+        row-gap: 1.5rem;
         max-width: 100%;
         width: 100%;
         margin: 0;
@@ -645,13 +645,13 @@ p {
     #cardContainer {
         display: grid;
         grid-template-columns: auto auto;
-        padding-right: 10px;
-        padding-left: 13px;
+        padding-right: 0.625rem;
+        padding-left: 0.813rem;
     }
 
     #cardContainer h3{
-        font-size: 20px;
-        line-height: 24.2px;
+        font-size: 1.25rem;
+        line-height: 1.513rem;
         letter-spacing: -0.05em;
     }
 
@@ -659,7 +659,7 @@ p {
 
     #sectionTableau > table {
         max-width: 100%;
-        width: 564px;   
+        width: 35.25rem;   
 
         font-size: 1rem;
         font-weight: 400;
@@ -669,7 +669,7 @@ p {
     #sectionTableau > table th {
         width: 33.33%;
         
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 600;
         letter-spacing: -0.05em;
     }
@@ -682,7 +682,7 @@ p {
     /* Vidéo */
 
     #sectionVideo {
-        padding-bottom: 55px;
+        padding-bottom: 3.438rem;
     }
 
     #sectionVideo p {
@@ -690,7 +690,7 @@ p {
     }
 
     #sectionVideo video {
-        max-width: 609px;
+        max-width: 38.063rem;
         aspect-ratio: 609/399;
     }
 }
@@ -703,52 +703,52 @@ p {
 
     #sectionCalculateur {
         display: flex;
-        column-gap: 0px;
+        column-gap: 0rem;
         align-items: flex-end;  
         justify-content: center;
 
         text-align: left;
 
-        padding: 172px  132px 160px 151px;
+        padding: 10.75rem  8.25rem 10rem 9.438rem;
     }
 
     #sectionCalculateur .description{
         text-align: left;
-        margin: 0px;
-        margin-right: 29px;
-        padding: 0px 0px 11px 0px;
+        margin: 0rem;
+        margin-right: 1.813rem;
+        padding: 0rem 0rem 0.688rem 0rem;
     }
 
     #sectionCalculateur .description > p {
-        padding: 0px;
-        max-width: 465px;
+        padding: 0rem;
+        max-width: 29.063rem;
     }
 
     #sectionCalculateur h1 {
-        margin-bottom: 35px;
+        margin-bottom: 2.188rem;
 
-        font-size: 64px;
-        line-height: 70.4px;
+        font-size: 4rem;
+        line-height: 4.4rem;
         letter-spacing: -0.05em;
     }    
 
     #calculatrice {
-        width: 574px;
-        margin: 0px;
+        width: 35.875rem;
+        margin: 0rem;
         box-sizing: border-box;
-        max-width: 588px;
-        max-height: 405px;
+        max-width: 36.75rem;
+        max-height: 25.313rem;
     }
 
     #calculatrice form {
         display: flex;
         align-items: center;
-        margin: 0px;
-        padding: 0px;
+        margin: 0rem;
+        padding: 0rem;
     }
 
     #calculatrice form > div {
-        max-height: 98px;
+        max-height: 6.125rem;
     }
 
     /* Comprendre */
@@ -756,24 +756,24 @@ p {
     #sectionComprendre {
         align-items: center;
         justify-content: center;
-        gap: 99px;
-        padding-top: 63px;
-        padding-bottom: 56px;
+        gap: 6.188rem;
+        padding-top: 3.938rem;
+        padding-bottom: 3.5rem;
     }
 
     #sectionComprendre .description {
-        max-width: 465px;
-        margin: 0px;
+        max-width: 29.063rem;
+        margin: 0rem;
     }
 
 
     #sectionImage {
-        margin: 0px;
+        margin: 0rem;
     }
 
     #sectionImage > img {
-        max-height: 554px;
-        max-width: 582px;
+        max-height: 34.625rem;
+        max-width: 36.375rem;
     }
 
     /* Conversions */
@@ -783,19 +783,19 @@ p {
         flex-direction: row;
         justify-content: center;
 
-        column-gap: 32px;
+        column-gap: 2rem;
 
-        padding-left: 130px;
-        padding-right: 130px;
-        padding-top: 47px;
-        padding-bottom: 85.5px;
+        padding-left: 8.125rem;
+        padding-right: 8.125rem;
+        padding-top: 2.938rem;
+        padding-bottom: 5.344rem;
 
-        margin-bottom: 77.5px;
+        margin-bottom: 4.844rem;
     }
 
     .conversionContainer {
-        max-width: 370px;
-        width: 370px;
+        max-width: 23.125rem;
+        width: 23.125rem;
         margin: 0;
     }
 
@@ -804,38 +804,31 @@ p {
     }
 
     .conversionContainer > .description > h3 {
-        height: 59px;
+        height: 3.688rem;
         width: 100%;
-        font-size: 24px;
-        line-height: 29.05px;
+        font-size: 1.5rem;
+        line-height: 1.816rem;
         letter-spacing: -0.05em;  
     }
 
     .conversionContainer > .description > p {
         width: 100%;
-        font-size: 16px;
-        line-height: 24px;  
+        font-size: 1rem;
+        line-height: 1.5rem;  
     }
 
     #icone1, #icone2, #icone3 {
         margin-top: 0;
         margin-bottom: 2.8125rem;
-
-    }
-
-    #icone1 {
-        margin-left: 32%;
-    }
-
-    #icone2, #icone3{
         margin-left: 36.7%;
+
     }
 
 
     /* Faits */
 
     #sectionFaits {    
-        max-width: 1182px;
+        max-width: 73.875rem;
         margin-left: auto;
         margin-right: auto;
     }
@@ -849,12 +842,12 @@ p {
     }
 
     #sectionFaits > .description p{
-        max-width: 564px;
+        max-width: 35.25rem;
     }
 
     #cardContainer {
         max-width: 100%;
-        row-gap: 52px;
+        row-gap: 3.25rem;
         display: grid;
         grid-template:  "card1 card2 card3" auto
                         "card4 card5 card6" auto / 1fr 1fr 1fr;
@@ -862,8 +855,8 @@ p {
 
     .card {
         box-sizing: border-box;
-        height: 288px;
-        max-width: 365px;
+        height: 18rem;
+        max-width: 22.813rem;
     }
 
     #card1 {
@@ -898,13 +891,13 @@ p {
     }
 
     #sectionTableau > div {
-        max-width: 1159px;
+        max-width: 72.438rem;
         margin-left: auto;
         margin-right: auto;
     }
 
     #sectionTableau table{
-        width: 1159px;
+        width: 72.438rem;
     }
 
     #sectionTableau h2{
@@ -918,7 +911,7 @@ p {
     /* Vidéo */
 
     #sectionVideo {
-        max-width: 1085px;
+        max-width: 67.813rem;
         margin-left: auto;
         margin-right: auto;
     }
